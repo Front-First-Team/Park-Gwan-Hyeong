@@ -9,8 +9,8 @@ JSX 정의와 역할
 # JSX 예제코드
  const element = <h1>Hello, world!</h1>;
  이 코드에는 대입연산자 equal이 나온다.
- 대입연산자는 오른쪽에 있는 값을 외쪽에 있는 변수에 대입해 주는 역할을 한다.
-
+ 대입연산자는 오른쪽에 있는 값을 왼쪽에 있는 변수에 대입해 주는 역할을 한다.
+ 
  JSX 예제코드 에 대입연산자 equal의 왼쪽에 나오는 자료형 const 와 변수명인
  element는 흔히 사용하는 자바스크립트 문법이다.
 
@@ -25,10 +25,9 @@ JSX 정의와 역할
 JSX는 내부적으로 XML,HTML 코드를 JavaScript로 변환해주는 과정을 거친다
 그러므로 우리가 JSX코드로 코드를 작성하더라도 최종적으로는 JavaScript가 나오게 되는것이다
 
-여기서 JSX 코드를 JavaScript코드로 변환해주는 것이 React의 createElement라는 함수입니다.
+여기서 'JSX 코드를 JavaScript코드로 변환해주는 것이 React의 createElement라는 함수'입니다.
 
 - createElement의 역할
-  
 
   -JSX로 짠 코드
        // Hello 라는 이름을 가진 React 컴포넌트
@@ -49,7 +48,6 @@ JSX는 내부적으로 XML,HTML 코드를 JavaScript로 변환해주는 과정�
   위 코드를 보면 Hello 라는 이름을 가진 React 컴포넌트가 나오고 컴포넌트 내부에서
   JavaScript 코드와 HTML 코드가 결합된 JSX를 사용하고 있는 것으로 확인된다.
   그리고 이렇게 만들어진 컴포넌트 React DOM의 렌더 함수를 사용하여 실제화면에 렌더링하고있다.
-
 
   -------------------------------------------------------
 
@@ -109,8 +107,8 @@ JSX를 사용한 코드도 내부적으로는 createElement함수를 사용하�
 
   }
 
-React는 이객체들을 읽어서 DOM을 만드는데 사용하고 항상 최신상태로 유지합니다
-Reac에서는 위에 출력된 객체를 element라고 부릅니다.
+React는 이 객체들을 읽어서 DOM을 만드는데 사용하고 항상 최신 상태로 유지합니다
+React에서는 위에 출력된 객체를 element라고 부릅니다.
 함수의 이름이 createElement이기에 당연히 element를 생성해서 return해줍니다.
 
 * 그렇다면 createElement 함수의 파라미터로는 어떤것들이 들어갈까??

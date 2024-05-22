@@ -5,19 +5,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import문을 사용하여 방금 만든 라이브러리 컴포넌트를 가져온 뒤
 // react돔을 사용하여 root-dom노드에 랜더링하도록 하는 코드이다.
-import Library from './chapter_03/LIbrary';
+import Clock from './chapter_04/Clock';
 
+setInterval(()=>{
+  ReactDOM.render(
+    <React.StrictMode>
+      <Clock/>
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+},1000);
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Library/>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
