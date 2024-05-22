@@ -77,11 +77,10 @@ React.createElement(type,[props],[...children])
  실제 createElement함수가 동작하느 과정을 살펴보자!
   function Button(props) {
     return (
-        <button className={`bg-${props.color}`}>
+        <button className= {`bg-${props.color`}>
         <b>
             {props.children}
         </b>
-        
         </button>
     )
   }
