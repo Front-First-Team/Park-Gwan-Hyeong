@@ -21,7 +21,7 @@ const element = <h1>Hello, world</h1>
   - 버튼의 코드를 나타내기 위한 엘리먼트
   #1
   (virtual Dom?)
-  {
+  { 
     type: 'button',
     props: {
         className: 'bg-green'

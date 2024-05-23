@@ -212,7 +212,7 @@ const element = <img src = {user.avatarUrl}></img>
     
     -2 HTML중간이 아닌 태그의 "속성"에 값을 넣을 때
        // 큰따옴표 사이에 문자열을 넣거나
-        const element = <div tabIndex="0></div>;
+        const element = <div tabIndex="0"></div>;
        // 중괄호 사이에 자바스크립트 코드를 넣으면 된다!
         const element = <img src = {user.avatarUrl}></img>
 
