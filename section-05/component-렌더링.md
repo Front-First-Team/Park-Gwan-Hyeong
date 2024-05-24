@@ -25,9 +25,8 @@
         document.getElementById('root')
     );
 
-    <질문!!----------->
      
-     function Welcome(props){
+        function Welcome(props){
         return <h1>안녕, {props.name}</h1>;
      }
 
