@@ -6,3 +6,47 @@
 
 리액트 컴포넌트의 단계별 생명주기!
 
+
+            출생             인생                 사망
+         Mounting         Updating            Ummounting
+
+         constructor
+
+        ------------------ render -------------------------   
+
+        ------------React updates DOM and refs-------------
+
+        componentDidMount  componentDidUpdate  componentWillㄴ7Unmount
+
+
+1. 출생
+ (컴포넌트가 생성되는 시점) 
+ 이 과정을 마운트라고 부른다 이때 컴포넌트의 constructor(생성자)가 실행된다.
+ 생성자는 컴포넌트의 state를 정의하게 된다. 또한 컴포넌트가 렌더링되며 이후에 ComponentDidMOunt() 함수가 호출된다.
+ 이후 생성된 컴포넌트는 많은 변화를 겪으면서 여러번 렌더링 된다. 이를 "업데이트"라 부른다
+
+2. 인생
+(생애 동안 변화를 겪으며 여러번 렌더링& 업데이트 과정)
+ 업데이트 과정에서는 컴포넌트의 props가 변경되거나 setState() 함수 호출에 의해 state가 변경되거나,
+ forceUpdate()라는 강제 업데이트 함수 호출로 인해 컴포넌트가 다시 렌더링된다. 렌더링 이후 componentDidUpdate() 
+ 함수가 호출된다.
+
+3. 사망 
+("어마운트" )
+상위 컴포넌트에서 현재 컴포넌트를 더이상 화면에 표시하지 않게 될떄 어마운트(사망) 된다고 한다.
+이때 어마운트 직전에 componentWillUnmount() 함수가 호출된다.
+
+**컴포넌트가 계속 존재하는것이 아니라 시간의 흐름에 따라 생성되고 업데이트되다가 사라진다는것**
+
+
+
+
+
+
+
+
+
+
+
+
+ 
