@@ -1,9 +1,9 @@
 import React from 'react';
-import Hello from './Hello';
+import Counter from './counter';
 
 function App() {
   return (
-    <Hello name="react" color="red"/>
+    <Counter />
   );
 }
 
