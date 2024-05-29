@@ -76,7 +76,7 @@ React Components 관점에서 같은 props에 대하여 항상 같은 결과를 
 ---------------------
 
 - 정리 
-  React componets의 props는 바꿀수없고,같은 props가 들어오면 항상 같은 엘리먼트를 리턴해야한다.
+  React componets의 props는 바꿀수없고, 같은 props가 들어오면 항상 같은 엘리먼트를 리턴해야한다.
   (props의 값은 react component가 엘리먼트를 생성하기 위해 사용하는 값)
 
 ---------------------

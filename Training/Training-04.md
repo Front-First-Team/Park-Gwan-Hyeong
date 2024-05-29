@@ -1,7 +1,7 @@
 4. JSX의 기본 규칙 알아보기
 
 JSX 는 리액트에서 생김새를 정의할 때, 사용하는 문법이다. 
-얼핏보면 HTML 같이 생겼지만 실제로는 JavaScript 입니다.
+얼핏보면 HTML 같이 생겼지만 실제로는 JavaScript 이다.
 
 return <div>안녕하세요</div>;
 리액트 컴포넌트 파일에서 XML 형태로 코드를 작성하면 babel 이 JSX 를 JavaScript 로 변환을 해줍니다.
