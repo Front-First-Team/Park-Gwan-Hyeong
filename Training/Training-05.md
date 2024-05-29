@@ -32,14 +32,14 @@
    위 두 코드는 APP컴포넌트에서 Hello 컴포넌트를 사용하는데, Hello 컴포넌트에 자바스크립트 객체 형태처럼 name이라는 속성을 넣어준것이다.
 
 
-   <!--실습중: App컴포넌트 안에 <Hello/>를 쓰면 Hello컴포넌트에 자바스크립트 객체형태로 내가 작성한 porps가 전달되는것이라 했다
+   실습중: App컴포넌트 안에 <Hello/>를 쓰면 Hello컴포넌트에 자바스크립트 객체형태로 내가 작성한 porps가 전달되는것이라 했다
       그래서 본래 수업은 <Hello name="react" /> 인데 introduction="안녕하세요,박관형 입니다." 를 추가해줘보았다. 
       두개다 화면에서 보고싶다면 {props.introduction}{props.name} 로 따로따로 키갑과 작들을 작성해줘야한다.접근법에 대한 이해가 부족했던거같다.
 
-      그리고 props의 값을 조회하고자 한다면 파라미터에 eventListner의 event.과 달리 props를 정확히 기재해주어야하는것같다--->
+      그리고 props의 값을 조회하고자 한다면 파라미터에 eventListner의 event.과 달리 props를 정확히 기재해주어야하는것같다
    
 
-   <!---app.js에서 hello를 import 해주었는데 어떻게 Hello.js 파일에서 App.js에서 설정한 name값을 사용할수 있는것일까??->
+   app.js에서 hello를 import 해주었는데 어떻게 Hello.js 파일에서 App.js에서 설정한 name값을 사용할수 있는것일까??
    
 ---
 
