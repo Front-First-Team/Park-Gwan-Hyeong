@@ -45,6 +45,7 @@
 
    -2 여러개의 props, 비구조화 할당
         Hello 컴포넌트에 또 다른 props를 전달하기 
+
     ```
         color 라는 값을 설정하기
         function App() {
@@ -53,7 +54,9 @@
             );
             }
     ```
+
     이제 Hello 컴포넌트에 내가 위에서 설정한 파라미터에 props를 입력하여 props.color 값을 조회하여 폰트의 색상으로 설정 할 수 있다.
+
     ```
     import React from 'react';
 
@@ -62,11 +65,13 @@
         }
 
         export default Hello;
+
     ```
     <!--위 실습을 하다 생긴 의문점이 풀렸다 하지만 style={{}} 중괄호가 두개인 이유는 무엇일까? 중괄호가 두개가 아니면 오류가 난다>
 
     props 내부의 값을 조회 할 때마다 props. 를 입력하고 있는데
     함수의 파라미터에서 구조 분해 할당 문법을 사용하면 조금 더 코드를 간결하게 작성 할 수 있다.
+
     ```
     import React from 'react';
 
@@ -75,6 +80,7 @@
     }
 
     export default Hello;
+
     ```
 
     -3. defaultProps 로 기본값 설정
@@ -106,6 +112,7 @@
          <Wrapper> 태그로 전에 작성한 Hello 컴포넌트들을 감싸주었다 그러나 브라우저를 확인하면 Hello 컴포넌트들은 보여지지 않는다.
          그래서 내부의 내용(Hello)이 보여지게 하기 위해서는 Wrapper 에서 props.children 을 렌더링해주어야 한다.
          Wrapper파일로 돌아가서
+         
          ```
          function Wrapper({ children }) {
                 const style = {
@@ -113,7 +120,9 @@
                     padding: '16px',
                 };
         ```
+
         Wrapper 컴포넌트 함수의 파라미터에 children을 작성해주었고
+
 
         ```
           return (
@@ -123,9 +132,10 @@
         )
         }
         ```
+
         반환값의 div테그 내에도 자바스크립트{childre}을 넣어주었다.
         이러면 화면에 보인다
-            >
+         
         
         <!--props.children에 대한 이해가 부족하다>
         ??
