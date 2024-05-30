@@ -10,11 +10,12 @@ import reportWebVitals from './reportWebVitals';
 // react돔을 사용하여 root-dom노드에 랜더링하도록 하는 코드이다.
 import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/commentList'; 
+import Notification from './chapter_06/NotificationList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(
     <React.StrictMode>
-      <CommentList/>
+      <Notification/>
     </React.StrictMode>
   );
 
