@@ -1,9 +1,9 @@
 import React from 'react';
-import Counter from './counter';
+import Hello from './Hello';
 
 function App() {
   return (
-    <Counter />
+    <Hello name="react" />
   );
 }
 

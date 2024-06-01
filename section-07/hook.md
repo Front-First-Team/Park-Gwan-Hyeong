@@ -15,7 +15,6 @@
   이러한 훅의 이름은 모두 use로 시작한다.
   -1. useState(가장 대표적이고 많이 사용되는 훅)
       함수 컴포넌트에서는 state라는 것을 제공하지 않기 떄문에 클래스 컴포넌트 처럼 state를 사용하고 싶다면 useState()훅을 사용해야한다.
-
       ```
       import React,{ useState } from "react";
 
@@ -59,6 +58,7 @@
         );
       }
       ```
+      
       위 코드는 useState()를 사용하여 카운트 값을 state로 관리하도록 만든것이다.
       이 코드에서 state의 변수명과 set함수가 각각 count,setCount로 되어있는것을 볼 수 있다.
 
