@@ -6,7 +6,7 @@
 
 리액트 컴포넌트의 단계별 생명주기!
 
-
+        -----------------------------------------------
             출생             인생                 사망
          Mounting         Updating            Ummounting
 
@@ -16,7 +16,7 @@
 
         ------------React updates DOM and refs-------------
 
-        componentDidMount  componentDidUpdate  componentWillㄴ7Unmount
+        componentDidMount  componentDidUpdate  componentWillUnmount
 
 
 1. 출생

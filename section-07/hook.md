@@ -62,6 +62,9 @@
       위 코드는 useState()를 사용하여 카운트 값을 state로 관리하도록 만든것이다.
       이 코드에서 state의 변수명과 set함수가 각각 count,setCount로 되어있는것을 볼 수 있다.
 
+      useEffect(이펙트 함수, []);
+      
+
 
 
    
